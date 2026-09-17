@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>GeeDrama — Short Drama Series</title>
+  <meta name="description" content="Discover GeeDrama short drama series. Romance, revenge and fantasy stories, with big emotions in short episodes.">
+  <meta name="theme-color" content="#101113">
+  <link rel="stylesheet" href="styles.css">
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="wordmark" href="index.html" aria-label="GeeDrama home">Gee<span>Drama</span></a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#stories" data-i18n="navStories">Our stories</a>
+        <a href="#about" data-i18n="navAbout">About GeeDrama</a>
+        <a href="#app" data-i18n="navApp">The app</a>
+      </nav>
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button type="button" data-lang="en" aria-pressed="true" lang="en">EN</button>
+        <button type="button" data-lang="zh" aria-pressed="false" lang="zh-CN">中文</button>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero shell" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="heroEyebrow">Small screen. Big feelings.</p>
+        <h1 id="hero-title"><span data-i18n="heroLine1">A little time.</span><br><span data-i18n="heroLine2">A whole lot of</span><br><em data-i18n="heroLine3">drama.</em></h1>
+        <p class="hero-description" data-i18n="heroDescription">A secret revealed. A choice that changes everything. Meet the stories that make you want one more episode.</p>
+        <a class="button" href="#stories"><span data-i18n="explore">Explore the stories</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h15M13 5l7 7-7 7"/></svg></a>
+        <p class="hero-footnote" data-i18n="heroNote">Short episodes. Stories that stay with you.</p>
+      </div>
+      <div class="hero-art" aria-label="Featured GeeDrama series posters">
+        <div class="hero-poster poster-left"><img src="assets/covers/the-plus-size-bakers-sweet-revenge.jpg" width="941" height="1672" alt="The Plus-Size Baker’s Sweet Revenge" fetchpriority="high"></div>
+        <div class="hero-poster poster-main"><img src="assets/covers/the-wolves-under-the-moon.jpg" width="942" height="1672" alt="The Wolves Under the Moon" fetchpriority="high"></div>
+        <div class="hero-poster poster-right"><img src="assets/covers/the-last-wolf-knight.jpg" width="941" height="1672" alt="The Last Wolf Knight"></div>
+        <div class="hero-caption"><span data-i18n="heroCaption">The GeeDrama collection</span><span data-i18n="heroGenres">Romance / Revenge / Fantasy</span></div>
+      </div>
+    </section>
+    <div class="shell section-topline"><strong data-i18n="strip1">Love. Secrets. Second chances.</strong><span data-i18n="strip2">Find your next story.</span></div>
+    <section class="stories shell" id="stories" aria-labelledby="stories-title">
+      <div class="section-heading"><div><p class="eyebrow" data-i18n="collection">The collection</p><h2 id="stories-title" data-i18n="storiesTitle">Seven stories. So much to feel.</h2></div><p data-i18n="storiesDescription">From city lights to moonlit kingdoms, discover a world worth getting lost in.</p></div>
+      <div class="catalog">
+        <article class="drama-card"><div class="cover"><img src="assets/covers/the-plus-size-bakers-sweet-revenge.jpg" width="941" height="1672" alt="The Plus-Size Baker’s Sweet Revenge poster" loading="lazy"></div><h3>The Plus-Size Baker’s Sweet Revenge</h3><p data-i18n="romanceRevenge">Romance · Revenge</p></article>
+        <article class="drama-card"><div class="cover"><img src="assets/covers/my-contract-husband-is-a-secret-boss.jpg" width="1080" height="1560" alt="My Contract Husband Is a Secret Boss poster" loading="lazy"></div><h3>My Contract Husband Is a Secret Boss</h3><p data-i18n="romanceSecrets">Romance · Secrets</p></article>
+        <article class="drama-card"><div class="cover"><img src="assets/covers/the-wolves-under-the-moon.jpg" width="942" height="1672" alt="The Wolves Under the Moon poster" loading="lazy"></div><h3>The Wolves Under the Moon</h3><p data-i18n="fantasyRomance">Fantasy · Romance</p></article>
+        <article class="drama-card"><div class="cover"><img src="assets/covers/the-wolves-under-the-moon-ii.jpg" width="941" height="1672" alt="The Wolves Under the Moon II: Return of Celestial Night poster" loading="lazy"></div><h3>The Wolves Under the Moon II: Return of Celestial Night</h3><p data-i18n="fantasy">Fantasy</p></article>
+        <article class="drama-card"><div class="cover"><img src="assets/covers/the-last-wolf-knight.jpg" width="941" height="1672" alt="The Last Wolf Knight poster" loading="lazy"></div><h3>The Last Wolf Knight</h3><p data-i18n="fantasy">Fantasy</p></article>
+        <article class="drama-card"><div class="cover"><img src="assets/covers/paycheck-over-love.jpg" width="512" height="909" alt="Paycheck over Love poster" loading="lazy"></div><h3>Paycheck over Love</h3><p data-i18n="dramaRevenge">Drama · Revenge</p></article>
+        <article class="drama-card"><div class="cover"><img src="assets/covers/a-dream-of-the-heiress.jpg" width="352" height="640" alt="A Dream of the Heiress poster" loading="lazy"></div><h3>A Dream of the Heiress</h3><p data-i18n="romanceRevenge">Romance · Revenge</p></article>
+      </div>
+    </section>
+    <section class="about shell" id="about" aria-labelledby="about-title">
+      <div><p class="eyebrow" data-i18n="aboutEyebrow">Made for your everyday</p><h2 id="about-title" data-i18n="aboutTitle">A small break.<br>A different world.</h2></div>
+      <div><p class="about-intro" data-i18n="aboutIntro">GeeDrama turns your spare moments into stories worth following. Get caught up in the characters, the choices, and the twist you never saw coming.</p><div class="about-points"><div><h3 data-i18n="about1Title">Get straight to the story</h3><p data-i18n="about1Copy">Short episodes keep the story moving, with a little room for drama in your day.</p></div><div><h3 data-i18n="about2Title">Feel every turn</h3><p data-i18n="about2Copy">Root for a character. Question a motive. Stay to find out what happens next.</p></div></div></div>
+    </section>
+    <section class="download shell" id="app" aria-labelledby="app-title">
+      <div><p class="eyebrow" data-i18n="appEyebrow">Meet GeeDrama</p><h2 id="app-title" data-i18n="appTitle">Your next story goes with you.</h2><p data-i18n="appCopy">Discover short drama series on your phone. Some content requires payment; purchase options and prices are shown in the app.</p></div>
+      <div class="download-side" id="store-area"><a class="button" href="#stories" data-i18n="browse">Browse the collection</a></div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="shell"><div class="footer-top"><a class="wordmark" href="index.html">Gee<span>Drama</span></a><nav class="footer-links" aria-label="Footer"><a href="privacypolicy.html" data-i18n="privacy">Privacy Policy</a><a href="termsofuse.html" data-i18n="terms">Terms of Use</a><a href="account-deletion.html" data-i18n="deletion">Account & data deletion</a><a id="support-link" hidden data-i18n="support">Contact us</a></nav></div><div class="footer-bottom"><span>© 2026 GeeDrama. <span data-i18n="rights">All rights reserved.</span></span><span data-i18n="footerNote">Short episodes. Big emotions.</span></div></div></footer>
+</body>
+</html>
