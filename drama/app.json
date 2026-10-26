@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "geedrama",
+  "name": "GeeDrama",
+  "logo": "./assets/geedrama.png",
+  "theme": {
+    "gradient": {
+      "angle": 90,
+      "stops": [
+        {
+          "color": "#FFB38A",
+          "position": 0
+        },
+        {
+          "color": "#FFFEF6",
+          "position": 0.49932020902633667
+        },
+        {
+          "color": "#FDFF9B",
+          "position": 1
+        }
+      ]
+    },
+    "textColor": "#531C06"
+  },
+  "labels": {
+    "open": "Open",
+    "continue": "Continue Watching"
+  },
+  "stores": {
+    "android": "https://play.google.com/store/apps/details?id=geedrama.drama.shorts",
+    "ios": null
+  },
+  "attribution": {
+    "enabled": false,
+    "pixelId": "",
+    "adjustToken": "",
+    "extraParams": {},
+    "clickEvent": "StartButtonClick"
+  }
+}
